@@ -2511,40 +2511,14 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-		.carousel .forward, .carousel .backward {
-			position: absolute;
-			top: 50%;
-			width: 6em;
-			height: 12em;
-			margin-top: -6em;
-			cursor: pointer;
-		}
-
-			.carousel .forward:before, .carousel .backward:before {
-				content: '';
-				display: block;
-				width: 6em;
-				height: 6em;
-				border-radius: 100%;
-				background-color: rgba(72, 57, 73, 0.5);
-				position: absolute;
-				top: 50%;
-				margin-top: -3em;
-				-moz-transition: background-color 0.35s ease-in-out;
-				-webkit-transition: background-color 0.35s ease-in-out;
-				-o-transition: background-color 0.35s ease-in-out;
-				-ms-transition: background-color 0.35s ease-in-out;
-				transition: background-color 0.35s ease-in-out;
-				-webkit-backface-visibility: hidden;
-			}
-
+		
 			
 
 		.carousel .reel {
 			white-space: nowrap;
 			position: relative;
 			-webkit-overflow-scrolling: touch;
-			padding: 0 2em 0 2em;
+			padding: 7 5em 7 5em;
 		}
 
 		.carousel article {
@@ -2581,7 +2555,7 @@ input, select, textarea {
 
 /* Wide */
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 2000px) {
 
 		/* Basic */
 
