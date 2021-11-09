@@ -2538,47 +2538,7 @@ input, select, textarea {
 				-webkit-backface-visibility: hidden;
 			}
 
-			.carousel .forward:after, .carousel .backward:after {
-				content: '';
-				width: 3em;
-				height: 3em;
-				position: absolute;
-				top: 50%;
-				margin: -1.5em 0 0 0;
-				background: url("images/arrow.svg") no-repeat center center;
-			}
-
-			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
-			}
-
-		.carousel .forward {
-			right: 0;
-		}
-
-			.carousel .forward:before {
-				right: -3em;
-			}
-
-			.carousel .forward:after {
-				right: -0.25em;
-			}
-
-		.carousel .backward {
-			left: 0;
-		}
-
-			.carousel .backward:before {
-				left: -3em;
-			}
-
-			.carousel .backward:after {
-				left: -0.25em;
-				-moz-transform: scaleX(-1);
-				-webkit-transform: scaleX(-1);
-				-ms-transform: scaleX(-1);
-				transform: scaleX(-1);
-			}
+			
 
 		.carousel .reel {
 			white-space: nowrap;
