@@ -122,7 +122,7 @@ input, select, textarea {
 	}
 
 	h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-		font-weight: 600;
+		font-weight: 800;
 	}
 
 	h2 {
@@ -2163,7 +2163,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: rgb(4, 5, 8);
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
@@ -2180,7 +2180,7 @@ input, select, textarea {
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		color: rgb(181, 218, 240);
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
