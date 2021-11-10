@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font:initial;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f4f4;
+		background: #0e7575;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -158,8 +158,8 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #ef8376;
-			border-bottom-color: transparent;
+			color: #a171df;
+			border-bottom-color:red;
 		}
 
 	sub {
@@ -214,15 +214,15 @@ input, select, textarea {
 		}
 
 		hr:before {
-			left: -1px;
+			left: -2px;
 		}
 
 		hr:after {
-			right: -1px;
+			right: -2px;
 		}
 
 	.timestamp {
-		color: rgba(128, 128, 128, 0.75);
+		color: rgba(170, 211, 58, 0.75);
 		font-size: 0.8em;
 	}
 
@@ -1780,9 +1780,9 @@ input, select, textarea {
 
 	.image {
 		position: relative;
-		display: inline-block;
-		border: 0;
-		outline: 0;
+		display:-ms-inline-grid;
+		border: 2;
+		outline: 2;
 	}
 
 		.image img {
